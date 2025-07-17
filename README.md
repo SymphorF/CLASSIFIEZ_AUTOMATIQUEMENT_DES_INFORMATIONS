@@ -1,15 +1,27 @@
 # Projet : Classifiez automatiquement des informations
 
-Ce projet utilise Python avec Poetry pour la gestion d'environnement virtuel, et JupyterLab pour l'exploration des données.
+Utilisez des modèles de classification pour prédire les démissions des employés de l'ESN TechNova Partners.
+
+*Ce projet utilise Python avec Poetry pour la gestion d'environnement virtuel, et JupyterLab pour l'exploration des données.*
 
 # Structure du projet
 
 ``` 
-Projet-4/
-├── data/ # Données (brutes et nettoyées)
-├── notebooks/ # Notebooks Jupyter
-├── pyproject.toml # Dépendances du projet
-├── poetry.lock # Verrouillage des versions (auto-généré)
-└── README.md # Ce fichier ``` 
+Projet /
+├── Data/                      # Les jeux de données (csv)
+│   ├── extrait_sondage.csv    # Données brutes
+│   ├── extrait_sirh.csv       # Données brutes
+│   ├── extrait_eval.csv       # Données brutes
+│   ├── data.csv               # Données brutes regroupées
+│   ├── data_encoded.csv       # Données nettoyés (sans la cible)
+│   └── data_cible_encoded.csv # Données nettoyés (cible uniquement)
+├── Notebooks/                 # Les notebooks Jupyter
+│   ├── Fonkou_Symphor_1_notebook.ipynb
+│   └── Fonkou_Symphor_2_notebook.ipynb
+├── Docs/                      # Les documents annexes (présentation, rapports…)
+│   └── Fonkou_Symphor_présentation.pptx
+├── pyproject.toml             # Fichier des dépendances (poetry)
+├── poetry.lock                # Verrouillage des versions
+└── README.md                  # Explications du projet
 
-
+``` 

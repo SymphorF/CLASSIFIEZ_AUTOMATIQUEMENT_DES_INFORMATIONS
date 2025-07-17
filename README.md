@@ -1,4 +1,4 @@
-# Projet 4 – OpenClassrooms – Classifiez automatiquement des informations
+# Projet : Classifiez automatiquement des informations
 
 Ce projet utilise Python avec Poetry pour la gestion d'environnement virtuel, et JupyterLab pour l'exploration des données.
 

@@ -8,20 +8,20 @@ Utilisez des modèles de classification pour prédire les démissions des employ
 
 ``` 
 Projet /
-├── Data/                      # Les jeux de données (csv)
-│   ├── extrait_sondage.csv    # Données brutes
-│   ├── extrait_sirh.csv       # Données brutes
-│   ├── extrait_eval.csv       # Données brutes
-│   ├── data.csv               # Données brutes regroupées
-│   ├── data_encoded.csv       # Données nettoyés (sans la cible)
-│   └── data_cible_encoded.csv # Données nettoyés (cible uniquement)
-├── Notebooks/                 # Les notebooks Jupyter
-│   ├── Fonkou_Symphor_1_notebook.ipynb
-│   └── Fonkou_Symphor_2_notebook.ipynb
-├── Docs/                      # Les documents annexes (présentation, rapports…)
-│   └── Fonkou_Symphor_présentation.pptx
-├── pyproject.toml             # Fichier des dépendances (poetry)
-├── poetry.lock                # Verrouillage des versions
-└── README.md                  # Explications du projet
+├── Data/                                   # Les jeux de données (csv)
+│   ├── extrait_sondage.csv                 # Données brutes
+│   ├── extrait_sirh.csv                    # Données brutes
+│   ├── extrait_eval.csv                    # Données brutes
+│   ├── data.csv                            # Données brutes regroupées
+│   ├── data_encoded.csv                    # Données nettoyés (sans la cible)
+│   └── data_cible_encoded.csv              # Données nettoyés (cible uniquement)
+├── Notebooks/                              # Les notebooks Jupyter
+│   ├── Fonkou_Symphor_1_notebook.ipynb     # Première partie Notebooks
+│   └── Fonkou_Symphor_2_notebook.ipynb     # Deuxième partie Notebooks
+├── Docs/                                   # Les documents annexes (présentation, rapports…)
+│   └── Fonkou_Symphor_présentation.pptx    # Présentation PowerPoint du projet
+├── pyproject.toml                          # Fichier des dépendances (poetry)
+├── poetry.lock                             # Verrouillage des versions
+└── README.md                               # Explications du projet
 
 ``` 

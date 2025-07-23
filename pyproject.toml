@@ -22,6 +22,7 @@ dependencies = [
 [tool.poetry]
 package-mode = false
 [tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
 pandas = "^2.3.0"
 numpy = "^2.3.0"
 seaborn = "^0.13.2"

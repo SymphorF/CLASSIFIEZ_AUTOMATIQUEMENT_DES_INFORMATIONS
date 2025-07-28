@@ -33,3 +33,4 @@ class EmployeData(BaseModel):
     heure_supp_anciennete_poste: float
     satisfaction_employee_equilibre_pro_perso: float
     nb_formations_suivies: int
+

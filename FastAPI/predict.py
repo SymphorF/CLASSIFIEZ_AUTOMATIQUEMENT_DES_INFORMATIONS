@@ -1,13 +1,3 @@
-'''
-import joblib
-import pandas as pd
-
-model = joblib.load("rfc_model.joblib")
-
-def make_prediction(data: pd.DataFrame):
-    predictions = model.predict(data)
-    return predictions
-'''
 import joblib
 import pandas as pd
 

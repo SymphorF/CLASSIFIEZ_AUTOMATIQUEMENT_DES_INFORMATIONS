@@ -39,7 +39,7 @@ def test_predict_endpo():
         "nb_formations_suivies": 2
     }
 
-    response = client.post("/predict", json=payload)
+    response = client.post("/status_employe_individuel", json=payload)
     
     assert response.status_code == 200
     assert "prediction" in response.json()

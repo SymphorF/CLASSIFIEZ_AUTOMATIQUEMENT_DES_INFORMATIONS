@@ -29,4 +29,5 @@ jobs:
         run: poetry install
 
       - name: Run tests
-        run: poetry run pytest
+        run: PYTHONPATH=${{ github.workspace }} poetry run pytest
+

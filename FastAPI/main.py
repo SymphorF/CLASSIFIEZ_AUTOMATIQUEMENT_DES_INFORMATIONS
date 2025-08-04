@@ -1,6 +1,6 @@
 
 from fastapi import FastAPI, UploadFile, File
-from model import EmployeData  
+from FastAPI.model import EmployeData  
 import joblib
 import pandas as pd
 import io

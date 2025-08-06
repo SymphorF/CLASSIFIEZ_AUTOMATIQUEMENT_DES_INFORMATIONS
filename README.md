@@ -67,14 +67,18 @@ Ce projet vise à prédire des tendances ou des indicateurs RH à partir de jeux
 bash
 
 git clone https://github.com/SymphorF/CLASSIFIEZ_AUTOMATIQUEMENT_DES_INFORMATIONS.git
+
 cd CLASSIFIEZ_AUTOMATIQUEMENT_DES_INFORMATIONS
+
 
 2. Créer un environnement virtuel :
 
 bash
 
 python -m venv venv
+
 source venv\Scripts\activate 
+
 
 3. Installer les dépendances :
 
@@ -86,6 +90,7 @@ installez poetry :
 bash
 
 poetry install
+
 
 
 🧪 **Lancer les tests**
@@ -102,7 +107,9 @@ pytest --cov=FastAPI tests/
 bash
 
 cd FastAPI
+
 uvicorn main:app --reload
+
 
 
 2. Accéder à la documentation interactive :
@@ -112,8 +119,11 @@ Swagger : http://127.0.0.1:8000/docs
 Redoc : http://127.0.0.1:8000/redoc
 
 
+
 🌐 **Déploiement**
+
 🔁 **GitHub Actions CI/CD**
+
 Un fichier .github/workflows/python-ci-cd.yml gère les workflows CI/CD :
 
 * Exécution des tests à chaque push
@@ -130,10 +140,11 @@ Un fichier .github/workflows/python-ci-cd.yml gère les workflows CI/CD :
 
 
 🔒 **Bonnes pratiques de sécurité**
+
 ✅ **Variables secrètes**
 
 * Ne jamais stocker de mot de passe, clé API ou URL de base de données en clair dans le code.
-* Utiliser un fichier .env pour les secrets :
+* Utiliser un fichier .env pour les secrets 
 
 env
 

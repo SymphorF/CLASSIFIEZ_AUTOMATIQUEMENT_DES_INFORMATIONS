@@ -110,6 +110,9 @@ cd FastAPI
 
 uvicorn main:app --reload
 
+ou 
+
+fastapi dev main.py
 
 
 2. Accéder à la documentation interactive :

@@ -85,6 +85,7 @@ source venv\Scripts\activate
 bash
 
 pip install -r deploy_hugging_face/requirements.txt
+
 installez poetry :
 
 bash
@@ -107,10 +108,6 @@ pytest --cov=FastAPI tests/
 bash
 
 cd FastAPI
-
-uvicorn main:app --reload
-
-ou 
 
 fastapi dev main.py
 

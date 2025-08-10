@@ -18,8 +18,7 @@ Projet /
 │   ├── __pycache__                            # Dossier pycache stockage des données compilées
 │   ├── __init__.py                            # Fichier init pour définir le package FastAPI
 │   ├── main.py                                # Fichier main
-│   ├── model.py                               # Fichier des classes des données
-│   └── predict.py                             # Fonction de prédiction
+│   └── rfc_model.joblib                       # Modèle random forest classifier en joblib
 ├── Notebooks/                                 # Les notebooks Jupyter
 │   ├── Fonkou_Symphor_1_notebook.ipynb        # Première partie Notebooks
 │   └── Fonkou_Symphor_2_notebook.ipynb        # Deuxième partie Notebooks

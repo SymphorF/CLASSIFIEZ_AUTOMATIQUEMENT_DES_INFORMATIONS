@@ -98,8 +98,13 @@ poetry install
 
 bash
 
-pytest --cov=FastAPI tests/
+python -m pytest --cov=FastAPI tests/
 
+ *Sur FastAPI* 
+
+uvicorn FastAPI.main:app --reload
+
+Swagger : http://127.0.0.1:8000/docs
 
 ▶️ **Utilisation locale (FastAPI)**
 

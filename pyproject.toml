@@ -18,7 +18,8 @@ dependencies = [
     "jupyter (>=1.1.1,<2.0.0)",
     "notebook (>=7.4.3,<8.0.0)",
     "fastapi>=0.110,<1.0.0",
-    "python-multipart (>=0.0.20,<0.0.21)"
+    "python-multipart (>=0.0.20,<0.0.21)",
+    "psycopg2-binary (>=2.9.10,<3.0.0)"
 ]
 
 [tool.poetry]
@@ -36,6 +37,7 @@ jupyter = "^1.1.1"
 notebook = "^7.4.3"
 python-multipart = "^0.0.20"
 sqlalchemy = "^2.0.0"
+psycopg2-binary = "^2.9.9"
 
 
 [build-system]

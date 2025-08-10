@@ -38,7 +38,7 @@ class OutputEmploye(Base):
     label = Column(String, nullable=False)
     created_at = Column(DateTime, default=datetime.utcnow)
 
-# Création des tables si elles n'existent pas
+# Création des tables
 Base.metadata.create_all(bind=engine)
 
 # =============================

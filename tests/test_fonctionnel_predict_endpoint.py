@@ -1,3 +1,4 @@
+"""
 from fastapi.testclient import TestClient
 from FastAPI.main import app
 
@@ -43,10 +44,9 @@ def test_predict_endpo():
     
     assert response.status_code == 200
     assert "prediction" in response.json()
+"""
 
 
-
-'''
 from fastapi.testclient import TestClient
 from FastAPI.main import app  # ⚠️ adapte ce chemin à ton projet
 
@@ -97,4 +97,3 @@ def test_predict_depart_ou_non():
     assert result["prediction"] in ["Démissionné", "Resté"]
 
     print("\n💡 Prédiction retournée :", result["prediction"])
-''' 

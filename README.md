@@ -18,6 +18,8 @@ Projet /
 │   ├── __pycache__                            # Dossier pycache stockage des données compilées
 │   ├── __init__.py                            # Fichier init pour définir le package FastAPI
 │   ├── main.py                                # Fichier main
+│   ├── main_fast_api.py                       # Fichier main pour tests FastAPI
+│   ├── model.py                               # Classe des colonnes
 │   └── rfc_model.joblib                       # Modèle random forest classifier en joblib
 ├── Notebooks/                                 # Les notebooks Jupyter
 │   ├── Fonkou_Symphor_1_notebook.ipynb        # Première partie Notebooks
@@ -113,7 +115,7 @@ bash
 
 cd FastAPI
 
-fastapi dev main.py
+fastapi dev main_fast_api.py
 
 
 2. Accéder à la documentation interactive :

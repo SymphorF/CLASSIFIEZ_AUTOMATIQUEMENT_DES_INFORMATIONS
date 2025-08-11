@@ -1,3 +1,4 @@
+'''
 from fastapi import FastAPI, UploadFile, File
 from FastAPI.model import EmployeData  
 import joblib
@@ -58,6 +59,8 @@ async def status_employe(file: UploadFile = File(...)):
 
     except Exception as e:
         return {"error": f"Erreur pendant le traitement du fichier : {str(e)}"}
+
+'''
 
 '''
 from fastapi import FastAPI
@@ -213,9 +216,11 @@ async def status_employe(file: UploadFile = File(...)):
 
     except Exception as e:
         return {"error": f"Erreur pendant le traitement du fichier : {str(e)}"}
+
+
 '''
 
-"""
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 from sqlalchemy import create_engine, Column, Integer, String, Float, DateTime, JSON, ForeignKey
@@ -321,4 +326,3 @@ def predict(data: EmployeData):
 
     finally:
         session.close()
-"""

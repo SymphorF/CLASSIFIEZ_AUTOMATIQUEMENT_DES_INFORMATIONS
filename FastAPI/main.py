@@ -13,22 +13,6 @@ model = joblib.load("rfc_model.joblib")
 
 # 2. Route pour prédire le statut d'un employé à partir des features individuelles
 
-"""
-@app.post("/status_employe_individuel")
-def predict(data: EmployeData):
-    # Conversion des données reçues en DataFrame
-    input_df = pd.DataFrame([data.dict()])
-    
-    # Prédiction avec le modèle
-    pred = model.predict(input_df)[0]
-    label = "A quitté" if pred == 1 else "Resté"
-
-    return {
-        "prediction": int(pred),
-        "label": label
-    }
-"""
-
 @app.post("/status_employe_individuel")
 def predict(data: EmployeData):
     input_df = pd.DataFrame([data.dict()])

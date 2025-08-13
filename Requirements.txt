@@ -27,14 +27,14 @@ sqlalchemy==2.0.30
 # ------------------------
 # Notebooks
 # ------------------------
-jupyterlab==4.2.1
+jupyterlab==4.4.5
 notebook==7.2.0
 ipykernel==6.29.4
 
 # ------------------------
 # Déploiement Hugging Face
 # ------------------------
-gradio==4.28.3
+gradio==5.31.0
 
 # ------------------------
 # Tests & couverture

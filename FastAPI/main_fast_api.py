@@ -2,11 +2,13 @@ from fastapi import FastAPI, UploadFile, File
 from pydantic import BaseModel
 from sqlalchemy import create_engine, Column, Integer, String, Float, DateTime, JSON
 from sqlalchemy.ext.declarative import declarative_base
+from FastAPI.model import EmployeData
 from sqlalchemy.orm import sessionmaker
 import joblib
 import pandas as pd
 from datetime import datetime
 import json
+import io
 
 # =============================
 # 0. Création de l'application
